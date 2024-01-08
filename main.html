@@ -1,16 +1,33 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>OTP Verification</title>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <div id="verification_heading"> <!-- Heading with ID -->
+        <h1>Your Heading Here</h1> <!-- Replace with your heading -->
+    </div>
 
+    <div id="verification_subtext"> <!-- Subheading with ID -->
+        <p>Your Subheading Here</p> <!-- Replace with your subheading -->
+    </div>
+
+    <div class="code-container">
+        <!-- 6 Digit Input -->
+        <input type="text" class="code" maxlength="1" oninput="handleInput(this)" />
+        <input type="text" class="code" maxlength="1" oninput="handleInput(this)" />
+        <input type="text" class="code" maxlength="1" oninput="handleInput(this)" />
+        <input type="text" class="code" maxlength="1" oninput="handleInput(this)" />
+        <input type="text" class="code" maxlength="1" oninput="handleInput(this)" />
+        <input type="text" class="code" maxlength="1" oninput="handleInput(this)" />
+    </div>
+
+    <script src="./script.js"></script> <!-- Include your script file -->
 </body>
 
 </html>
